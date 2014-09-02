@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+		head
+				title="yogether"
+		body
+				h1 Welcome to Yogether
+				if submitted
+						h2 Group joined!
+				form(method="post" action="/")
+						p Username
+						input(type="text" name="user")
+						p Group
+						input(type="text" name="group")
+						br
+						input(type="submit")
